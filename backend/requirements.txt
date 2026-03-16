@@ -1,0 +1,32 @@
+# ─── Core Web Framework ───────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+websockets>=12.0
+python-multipart>=0.0.9
+
+# ─── Google Cloud + AI (let google-adk resolve compatible versions) ────────────
+google-adk
+google-cloud-firestore
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-secret-manager
+firebase-admin
+
+# ─── Pydantic (data validation) ──────────────────────────────────────────────
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# ─── Vision / Video Processing ────────────────────────────────────────────────
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+
+# ─── Authentication ───────────────────────────────────────────────────────────
+python-jose[cryptography]>=3.3.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0
+httpx>=0.25.0
+aiofiles>=23.0.0
+
+# ─── Report Generation ────────────────────────────────────────────────────────
+reportlab>=4.0.0

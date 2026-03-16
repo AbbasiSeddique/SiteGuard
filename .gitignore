@@ -1,0 +1,52 @@
+# ─── Claude Code settings ────────────────────────────────────────────────────
+.claude/
+
+# ─── Secrets & credentials ──────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.json.key
+service-account.json
+*-service-account.json
+*credentials*.json
+gcp-key*.json
+
+# ─── Python ──────────────────────────────────────────────────────────────────
+backend/venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ─── Node / Frontend ─────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+figma/Untitled/node_modules/
+*.tsbuildinfo
+
+# ─── IDEs ────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ─── Docker ──────────────────────────────────────────────────────────────────
+.dockerignore
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+*.log
+logs/
