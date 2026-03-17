@@ -13,8 +13,7 @@ SiteGuard AI detects OSHA violations in real-time from construction site videos 
 
 Construction sites have a 20% fatality rate compared to all industries. OSHA violations go undetected because human supervisors can't watch every camera simultaneously, and post-incident reports come too late. SiteGuard AI solves this with always-on AI vision that:
 
-1. **Detects violations as they happen** — not after the fact
-2. **Speaks warnings in the worker's language** — 70+ languages via Gemini Live
+1. **Detects violations as they happen** 
 3. **Generates compliance-ready OSHA reports automatically** — saving hours of documentation
 4. **Answers follow-up questions about findings** — via the ARIA conversational agent
 
@@ -51,24 +50,37 @@ Construction sites have a 20% fatality rate compared to all industries. OSHA vio
 - ARIA Q&A panel for report analysis
 - Download to PDF via browser print
 
-### Live Supervisor Mode
-- WebRTC camera + microphone → Gemini Live API
-- Real-time violation detection while supervisor walks the site
-- Natural conversation with barge-in support
-- Responds in worker's language
-- Critical violations → instant manager dashboard alerts
-
 ---
 
 ## Demo
 
+Watch the full demo below to see how the system performs real-time vision inspection, detects hazards, and streams violations directly to the interface.
+
+[![Watch the demo](https://img.youtube.com/vi/0FQLYJ8zywo/0.jpg)](https://youtu.be/0FQLYJ8zywo)
+
+### Try It Yourself
+
+To test the system, you can upload safety-related videos.
+
+- Search on YouTube for **OSHA violations**
+- Download videos using tools like y2mate
+
+### Example Videos for Testing
+
+Use the following sample videos:
+
+- [Construction Safety Violations Example 1](https://www.youtube.com/watch?v=gxz03mP8E58&t=13s)
+- [Construction Safety Violations Example 2](https://www.youtube.com/watch?v=PfEhTDXs4Yg)
+
+### Features Overview
+
 | Feature | Description |
 |---------|-------------|
-| 🎬 **Vision Inspection** | Upload site video → Gemini analyzes frames → violations stream in real-time |
-| 🛡️ **ARIA Agent** | Ask "What violations were found?" → Google ADK queries Firestore/BigQuery |
-| 📊 **Safety Dashboard** | Live stats, 30-day trends, ARIA side panel always visible |
-| 📋 **HSE Reports** | Auto-generate + download OSHA-mapped compliance PDF |
-| 📱 **Live Supervisor** | WebRTC camera + Gemini Live API with barge-in support |
+| Vision Inspection | Upload site video → Gemini analyzes frames → violations stream in real-time |
+| ARIA Agent | Ask "What violations were found?" → Google ADK queries Firestore/BigQuery |
+| Safety Dashboard | Live stats, 30-day trends, ARIA side panel always visible |
+| HSE Reports | Auto-generate and download OSHA-mapped compliance PDF |
+| Live Supervisor | WebRTC camera with real-time monitoring and interaction |
 
 ---
 
